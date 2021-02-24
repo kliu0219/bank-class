@@ -15,8 +15,12 @@ public class Bank {
 	public void withdraw(int num) {
 		if (balance - num > 0) {
 			newBalance = balance - num;
+			System.out.println(newBalance);
 		}
-		System.out.println(newBalance);
+		else {
+			System.out.println("not enough fund");
+		}
+		
 	}
 	public void getCustomerInfo() {
 			System.out.println("Customer Name is "+ name);
