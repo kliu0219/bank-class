@@ -7,5 +7,4 @@ public class Test {
 		bank.withdraw(300);
 		bank.getCustomerInfo();
 	} 
-	
 }
